@@ -19,7 +19,8 @@ const customerSchema = new mongoose.Schema(
     },
     doc: {
       type: String,
-      required: true
+      // required: true
+      default: '',
     },
   },
   { timestamps: true }
